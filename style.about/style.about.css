@@ -1,0 +1,384 @@
+@import 'fonts.about.css';
+
+
+
+/* Root start */
+
+
+
+:root {
+    --mm500: 'Montserrat Medium';
+    --nr400: 'NunitoSans Regular';
+    --ws400: 'WorkSans Regular';
+    --green: #007d2f;
+    --dark: #323232;
+    --grey: #787878;
+    --black: #191919;
+    --white: #ffffff;
+    --white_dark: #f5f5f5;
+}
+
+
+.menu_about {
+    font-size: 36px;
+    color: var(--green);
+}
+
+.wm {
+    width: max-content;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+
+::-webkit-scrollbar {
+   width: 10px;
+   background: var(--grey);
+}
+::-webkit-scrollbar-thumb {
+   color: var(--green);
+   border-radius: 30px;
+   background: darkorange;
+}
+::selection {
+   color: var(--green);
+   background: var(--dark);
+}
+
+
+/* Root end */
+/* ************************* */
+
+
+
+
+/* Header start */
+
+.header__nav-link {
+    font-size: 12px;
+    font-family: var(--mm500);
+    color: var(--black);
+    text-transform: uppercase;
+    padding-left: 32px;
+    transition: color 300ms;
+}
+
+.header__nav-link:hover {
+    color: var(--green);
+}
+
+.header__nav {
+    background: var(--white);
+}
+
+
+.header__about {
+    background: var(--dark);
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+
+.header__about-title {
+    font-size: 61px;
+    font-family: var(--mm500);
+    color: var(--white);
+    line-height: 47px;
+}
+
+.header__about-text {
+    font-family: var(--nr400);
+    font-size: 22px;
+    color: var(--white);
+    text-align: center;
+    line-height: 35px;
+}
+
+
+
+
+
+/* Header end */
+/* *************************** */
+
+
+
+
+/* Main start */
+
+
+.main_title {
+    background: var(--green);
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+
+.main_item-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main__case {
+    font-size: 40px;
+    color: var(--white);
+}
+.main_548 {
+    margin: 0;
+    font-family: var(--mm500);
+    font-size: 18px;
+    color: var(--white);
+}
+.main__project {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: var(--mm500);
+    color: var(--white);
+}
+
+
+.main_item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__clock {
+    font-size: 40px;
+    color: var(--white);
+}
+.main__work {
+    font-size: 12px;
+    font-family: var(--mm500);
+    color: var(--white);
+}
+
+
+.main_item-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__star {
+    font-size: 40px;
+    color: var(--white);
+}
+.main__positive {
+    color: var(--white);
+    font-size: 12px;
+    font-family: var(--mm500);
+}
+
+
+
+.main_item-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__heart {
+    font-size: 40px;
+    color: var(--white);
+}
+.main_735 {
+    color: var(--white);
+    font-size: 18px;
+    font-family: var(--mm500);
+    margin: 0;
+}
+.main__happy {
+    font-size: 12px;
+    color: var(--white);
+    font-family: var(--mm500);
+    
+}
+
+.main__about-right {
+    background: var(--white_dark);
+}
+
+.main__about-title {
+    font-family: var(--mm500);
+    color: var(--black);
+    font-size: 30px;
+    line-height: 22px;
+}
+.main__about-text {
+    font-size: 16px;
+    font-family: var(--nr400);
+    color: var(--grey);
+    line-height: 24px;
+   
+}
+
+.signature {
+    text-align: start;
+    display: flex;
+}
+
+.marius {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+.main__regist-title {
+    font-size: 30px;
+    font-family: var(--mm500);
+    color: var(--black);
+    margin-bottom: 33px;
+    line-height: 29px;
+    margin-top: 103px;
+}
+.main__regist-text {
+    text-align: center;
+    line-height: 24px;
+    font-family: var(--nr400);
+    font-size: 16px;
+    margin-bottom: 39px;
+    
+}
+
+
+
+
+.send {
+    font-family: var(--mm500);
+    font-size: 18px;
+    color: var(--white);
+    line-height: 9px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: var(--green);
+    padding: 23px 25px 22px 25px;
+    margin-bottom: 100px;
+    border: 1px solid white;
+  
+}
+
+.send:focus {
+    outline: none;
+}
+
+.send:hover {
+    color: var(--white);
+}
+
+/* Main end */
+/* *********************** */
+
+
+
+/* Footer start */
+.footer {
+    background: var(--black);
+}
+.footer__title {
+    padding-top: 99px;
+    padding-bottom: 101px;
+    
+}
+.footer__links {
+    font-size: 15px;
+    font-family: var(--nr400);
+    line-height: 24px;
+    color: #bcbcbc;
+    max-width: 65px;
+    
+}
+.footer_macintosh {
+    color: var(--white);
+    font-family: var(--mm500);
+    font-size: 18px;
+    
+}
+.footer__design {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: var(--nr400), var(--ws400);
+    max-width: 237px;
+}
+.footer__info {
+    font-size: 15px;
+    color: #bcbcbc;
+    font-family: var(--ws400), var(--nr400);
+    margin-bottom: 0;
+    max-width: 154px;
+}
+
+
+
+.footer__information {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Footer end */
+/* *************************** */
+
+
+
+
+
+
+@media (max-width:767px) {
+    .main__icons {
+        display: flex;
+      align-items: center;
+       flex-direction: column;
+       }
+       .menu_about::before {
+           font-size: 38px;
+           color: var(--green);
+       }
+       .signature {
+        width: 150px;
+    }
+    .header__about-title {
+        font-size: 40px;
+    }
+    .header__about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main_title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main__about-right {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main__regist-title {
+        
+        margin-right: 0;
+    }
+   
+}
+
+@media (max-width:600px) {
+    .signature {
+        width: 130px;
+    }
+    .main__about-text {
+        text-align: center;
+    }
+    .main__about-title {
+        font-size: 25px;
+    }
+    .main__regist-title {
+       
+        font-size: 25px;
+        margin-right: 0;
+    }
+}

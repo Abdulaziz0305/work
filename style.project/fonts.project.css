@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'NunitoSans Bold';
+    src: url(../fonts/NunitoSans-Bold/NunitoSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto-Medium/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'NunitoSans Regular';
+    src: url(../fonts/NunitoSans-Regular/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'WorkSans Regular';
+    src: url(../fonts/WorkSans-Regular/WorkSans-Regular.ttf);
+}

@@ -1,0 +1,239 @@
+@import 'fonts.project.css';
+
+/* Root start */
+:root {
+    --nb700:'NunitoSans Bold';
+    --mm500: 'Montserrat Medium';
+    --nr400: 'NunitoSans Regular';
+    --ws400: 'WorkSans Regular';
+    --green: #007d2f;
+    --dark: #323232;
+    --grey: #787878;
+    --black: #191919;
+    --white: #ffffff;
+    --white_dark: #f5f5f5;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.menu_about {
+    font-size: 36px;
+    color: var(--green);
+}
+
+.wm {
+    width: max-content;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+
+::-webkit-scrollbar {
+   width: 10px;
+   background: var(--grey);
+}
+::-webkit-scrollbar-thumb {
+   color: var(--green);
+   border-radius: 30px;
+   background: darkorange;
+}
+::selection {
+   color: var(--green);
+   background: var(--dark);
+}
+
+
+/* Root end */
+/* *********************** */
+
+
+
+
+
+/* Header start */
+
+.header__nav-link {
+    font-size: 12px;
+    font-family: var(--mm500);
+    color: var(--black);
+    text-transform: uppercase;
+    padding-left: 32px;
+    transition: color 300ms;
+}
+
+.header__nav-link:hover {
+    color: var(--green);
+}
+
+.header__nav {
+    background: var(--white);
+}
+
+
+
+
+
+
+/* Header end */
+/* **************************** */
+
+
+
+
+
+
+
+
+
+
+
+/* Mainstart */
+
+.main {
+    background: #f6f6f6;
+}
+
+.main__project-title {
+    font-size: 38px;
+    font-family: var(--mm500);
+    color: #171717;
+    margin-top: 105px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.main__project-text {
+    font-size: 16px;
+    color: var(--grey);
+    line-height: 24px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.main__project-text:nth-of-type(2) {
+    margin-top: 33px;
+    margin-bottom: 60px;
+}
+
+.main__project-link {
+    font-size: 16px;
+    font-family: var(--nr400);
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+.main__project-link:last-of-type {
+    margin-bottom: 105px;
+}
+
+.span {
+    font-family: var(--nb700);
+}
+
+.main__breakfast {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main__nav-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--mm500);
+    color: var(--white);
+    
+}
+
+.main__nav {
+    background: var(--green);
+}
+
+.main__nav-icon {
+    color: var(--white);
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main__nav-angle {
+    color: var(--black);
+}
+
+.main__nav-text {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0;
+}
+/* Main end */
+/* *************************** */
+
+
+
+
+
+
+/* Footer start */
+
+
+.footer {
+    background: var(--black);
+    padding-top: 108px;
+    padding-bottom: 92px;
+}
+
+
+.footer_macintosh {
+    color: var(--white);
+    
+    
+}
+
+.footer__design {
+    color: #bcbcbc;
+    max-width: 237px;
+}
+
+.footer__info {
+    color: #bcbcbc;
+    max-width: 154px;
+}
+
+.footer__links {
+    color: #bcbcbc;
+    max-width: 65px;
+}
+
+.footer__information {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer end */
+/* ************************* */
+
+
+@media (max-width:767px) {
+    .main__project-title {
+        
+        text-align: center;
+    }
+    .main__project-left {
+        text-align: center;
+    }
+}
